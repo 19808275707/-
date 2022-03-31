@@ -1,0 +1,65 @@
+html body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.layui-layout{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+.layui-header{
+    width: 100%;
+    background-color:  #080808 !important;
+}
+h1{
+    color: white;
+    margin-left: 700px;
+    text-shadow: 10px 10px 10px white;
+}
+.layui-nav{
+    height: 100%;
+    background-color: #1a1919 !important;
+}
+.layui-nav{
+    height: 100%
+}
+.aa{
+    color: white;
+    font-size: 18px !important;
+    line-height: 80px;
+}
+.layui-body{
+    background-color:  #464747 !important;
+}
+.add-select{
+    display: flex;
+}
+#page{
+    text-align: center;
+}
+h1{
+    color: white;
+    margin-left: 700px;
+    text-shadow: 10px 10px 10px white;
+}
+.layui-form-item{
+    display: flex;
+    font-size: 18px;
+    width: 100%;
+    margin: 50px 0px;
+    color: white;
+}
+.grading{
+    margin:5px 10px;
+}
+.layui-btn{
+    color: white;
+    border: 1px solid silver
+}

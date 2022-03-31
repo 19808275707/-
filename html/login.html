@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  <title>Login</title>
+  <link rel="stylesheet" href="../css/denglu.css">
+</head>
+<body>
+  <div id="Maindiv">
+    <div id="Title">
+          <span>Welcome!</span><br>
+          <span>AI智慧大脑视频分析系统</span>
+    </div>
+    <div id="denglu">
+          <h3>欢迎登录AI系统</h3>
+            <form class="form-inline">
+              <div class="form-group">
+                  <label class="sr-only" for="User">用户名：</label>
+                  <input type="text" class="username" id="User" placeholder="请输入账号" name="uname" autocomplete="off">
+                  <span></span>
+              </div>
+              <div class="form-group">
+                  <label class="sr-only" for="Pwd">密 码 ：</label>
+                  <input type="password" class="classname" id="Pwd" placeholder="请输入密码" name="upwd" autocomplete="off"><br>
+                  <span></span>
+                  <button id="btn" type="button" class="btn btn-default">登录</button>
+                </div>
+          </form>
+    </div>
+  </div>
+  <script src="../utils/setting.js"></script>
+  <script src="../utils/jquery-1.11.3.js"></script>
+  <script src="../js/login.js"></script>
+</html>

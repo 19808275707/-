@@ -1,0 +1,14 @@
+srsrtc.tar
+
+.vscode
+
+# 缓存 日志
+**/temp/*
+**/logs/*
+back/statics/*
+
+# python缓存配置
+.idea/
+**/__pycache__/
+*.py[cod]
+*$py.class

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../layui/css/layui.css" />
+    <link rel="stylesheet" type="text/css" href="../layui/css/modules/code.css" />
+    <link rel="stylesheet" type="text/css" href="../layui/css/modules/laydate/default/laydate.css" />
+    <link rel="stylesheet" type="text/css" href="../layui/css/modules/layer/default/layer.css" />
+    <link rel="stylesheet" href="../css/blockSetting.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="layui-layout layui-layout-admin">
+        <!-- 头部区域（可配合layui 已有的水平导航） -->
+        <div class="layui-header">
+            <h1>智慧大脑AI分析系统</h1>
+            <ul class="layui-nav layui-layout-right">
+                <li class="layui-nav-item" lay-header-event="menuRight" lay-unselect>
+                    <a href="index.html">
+                        <i class="layui-icon layui-icon-home"></i>
+                    </a>
+                </li>
+            </ul>                                                                                          
+        </div>
+        <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+        <div class="layui-side">
+            <ul class="layui-nav">
+                <li class="layui-nav-title">
+                    <a href="../html/alarmRecord.html" class="aa">报警信息记录</a>
+                </li>
+                <li class="layui-nav-title">
+                    <a href="../html/admin.html" class="aa">管理人员</a>
+                </li>
+                <li class="layui-nav-title">
+                    <a href="../html/network.html" class="aa">网络准入控制系统</a>
+                </li>
+                <li class="layui-nav-title">
+                    <a href="../html/blockSetting.html" class="aa">皮带大块设定</a>
+                </li>
+                <li class="layui-nav-title">
+                    <a href="../html/plc.html" class="aa">联动停机</a>
+                </li>
+                <li class="layui-nav-title">
+                    <a href="../html/banAudio.html" class="aa">限制区域语音</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 内容主体区域 -->
+        <div class="layui-body">
+            <div class="layui-form-item">
+                <label class="layui-form-label"style="width: 15%;">请输入皮带大块分级设定数</label>
+                <div class="grading">
+                    一级设定：<input type="text"  id="first"  class="input-block" style="height: 30px;">
+                </div>
+                <div class="grading">
+                    二级设定：<input type="text"  id="second" class="input-block" style="height: 30px;" >
+                </div>
+                <div class="grading" >
+                    三级设定：<input type="text" id="three" class="input-block" style="height: 30px;">
+                </div>
+                <button type="button" class="layui-btn layui-btn-primary" >设定</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/blockSetting.js"></script>
+    <script src="./layui/layui.js"></script>
+    <script src="../utils/setting.js"></script>
+    <script src="../utils/jquery-1.11.3.js"></script>
+</body>
+</html>
