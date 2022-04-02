@@ -1,4 +1,6 @@
-     window.onload=function () {
+
+
+    window.onload=function () {
         var btn=document.getElementById("btn");
         btn.onclick=function () {
             var username=document.getElementById("User").value;         //获取用户名input的value

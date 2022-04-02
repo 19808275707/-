@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="Access-Control-Allow-Origin" content="*">
   <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="../layui/css/layui.css" />
   <link rel="stylesheet" href="../css/denglu.css">
 </head>
 <body>
-  <div id="Maindiv">
-    <div id="Title">
-          <span>Welcome!</span><br>
-          <span>AI智慧大脑视频分析系统</span>
+  <div id="Login">
+      <div id="title">
+        <span>欢迎用户登录</span>
+        <hr>
+      </div>
+      <div id="denglu">
+        <p>智慧AI系统</p>
+        <form class="form-inline">
+          <div class="form-group">
+            <i class="layui-icon layui-icon-username"></i>
+            <input type="text" class="username" id="User"  name="uname" autocomplete="off" placeholder="请输入用户名">
+            <span class="nsp"></span>
+          </div >
+            <div class="form-group">
+            <i class="layui-icon layui-icon-password"></i>
+            <input type="password" class="classname" id="Pwd" name="upwd" autocomplete="off" placeholder="请输入密码">
+            <span class="nsp"></span>
+          </div>
+          <div>
+            <button id="btn" type="button" class="btn btn-default">登录</button>
+          </div>
+        </form>
+      </div>
     </div>
-    <div id="denglu">
-          <h3>欢迎登录AI系统</h3>
-            <form class="form-inline">
-              <div class="form-group">
-                  <label class="sr-only" for="User">用户名：</label>
-                  <input type="text" class="username" id="User" placeholder="请输入账号" name="uname" autocomplete="off">
-                  <span></span>
-              </div>
-              <div class="form-group">
-                  <label class="sr-only" for="Pwd">密 码 ：</label>
-                  <input type="password" class="classname" id="Pwd" placeholder="请输入密码" name="upwd" autocomplete="off"><br>
-                  <span></span>
-                  <button id="btn" type="button" class="btn btn-default">登录</button>
-                </div>
-          </form>
-    </div>
-  </div>
+</body>
   <script src="../utils/setting.js"></script>
   <script src="../utils/jquery-1.11.3.js"></script>
   <script src="../js/login.js"></script>

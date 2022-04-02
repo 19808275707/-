@@ -1,91 +1,74 @@
-
-html,
-body {
+html,body{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+*{
     margin: 0px;
     padding: 0px;
-    background-color: darkgrey;
 }
-#Maindiv {
-    height: 100%;
+#Login {
+    border: 1px solid rgb(17, 17, 17);
+    background-image: url(../img/denglu3.jpg);
+    background-size: cover;
+    width: 2000px;
+    height: 960px;
+}
+#title{
+    text-align: center;
     width: 100%;
-    box-sizing: border-box;
-    position: absolute;
-    background-color: rgba(220, 231, 231, 0.068);
+    margin-top: 120px;
 }
-#Title {
-     /* border: 1px solid green; */
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    transform: translate(-50%, -50%);
+span{
+    font-size: 28px;
+    color: rgb(244, 244, 252);
 }
-span {
-    text-shadow: 10px 10px 10px white;
-    font-size: 40px;
-    font-style: italic;
-}
-#denglu span{
-    width: auto;
-    position: absolute;
-    right: -240px;
-    text-align: left;
+hr{
+    margin-left: 38%;
+    width:25%;
 }
 #denglu {
-     /* border: 1px solid blueviolet;  */
-    border-radius: 20px;
-    width: 25%;
-    height: 300px;
-    position: absolute;
-    backdrop-filter: blur(3px);
-    top: 50%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    box-shadow: 10px 10px 50px 5px rgba(57, 58, 58, 0.212);
-    }
-h3 {
-    /* border: 1px solid thistle; */
+    margin: 60px auto;
+    width: 16%;
+    height: 400px;
     text-align: center;
-    color: rgb(17, 17, 17);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px white;
+    }
+.form-group{
     line-height: 50px;
-    font-size: 30px;
-    }
-.form-inline {
-    /* border: 1px solid brown; */
-    text-align: center;
-    line-height: 60px;
-    height: 200px;
-    margin-top: -20px;
-    }
-.sr-only {
-    /* border: 1px solid bisque; */
-    width: 100px;
-    font-size: 18px;
-    font-style: italic;
+    margin:40px auto;
+}
+.layui-icon{
+    font-size: 28px;
+    color: #b5c3cc;
+}
+p{
+    line-height: 50px;
+    border: 1px solid rgb(217, 233, 252);
+    border-radius: 5px;
+    color: rgb(245, 241, 241);
+    font-size: 22px;
     }
 .classname{
-    padding: 8px ;
+    border: 1px solid rgb(252, 248, 248);
+    padding: 10px;
 }
 .username{
-    padding: 8px ;
+    border: 1px solid rgb(245, 244, 244);
+    padding: 10px ;
 }
-.form-control {
-    border: 1px solid rgb(36, 35, 35);
-    width: 50%;
-    top: 50%;
-    left: 30%;
-    line-height: 30px;
-    border-radius: 45px;
-    background-color:rgba(26, 27, 27, 0.37);
-    }
 #btn {
-    border: 1px solid rgba(23, 141, 238, 0.034);
+    border: 1px solid black;
+    margin: 20px auto;
+    border-style: none;
     width: 60%;
-    line-height: 30px;
-    border-radius: 45px;
-    background-color:rgba(151, 156, 156, 0.815);
-    font-size: 20px;
-    color:rgb(16, 17, 17);
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: rgb(245, 240, 240);
+    cursor: pointer;
+    background-color:#b7c8d3;
     }
-input{
-    outline:none;
-    }
+
+
