@@ -22,6 +22,10 @@ html body {
 
 .layui-body {
     background-color: white !important;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    box-shadow: 10px 10px 10px 10px black;
 }
 
 .layui-nav-title {
@@ -32,6 +36,11 @@ html body {
 .aa {
     font-size: 18px;
     color: white;
+}
+
+.layui-btn {
+    border: 1px solid rgb(245, 245, 243);
+    background-color: black;
 }
 
 #fenye {

@@ -47,7 +47,7 @@
             <td >${newData[i].location}</td/>
           </tr>
       `
-      $(`<img src=${imgroot.concat(newData[i].picture.slice(mediaroot.length))} alt="" width="100%" id="img${i}" class="sideimg"/>
+      $(`<img src=${imgroot.concat(newData[i].picture.slice(mediaroot.length))} alt="" width="100%" height="100%"id="img${i}" class="sideimg"/>
         <div style="color:white" class="sideimg" id="desc${i}">
           <p>报警名称：${newData[i].name}</p>
           <p>报警描述：${newData[i].description}</p>

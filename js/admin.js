@@ -12,7 +12,6 @@ function getTable(){
     xhrFields: {
       withCredentials: true
     },
-    page:true,
     success:function(data){
       //三. 前端做分页 后端返回所有数据
       let pydata = data.data
@@ -36,15 +35,12 @@ function getTable(){
     }
   });
 }
-// 调用函数
-getTable(); 
+
 //二. 拿到后端数据且进行表中内容渲染
-let page=1
-let laypage;
 function RenderTable(page,limit,data){
   let str='';
-  let pages =(page-1)*limit
-  let  newpyData = data.slice(pages,pages+limit)
+  let pages =(page-1)*limit;
+  let newpyData = data.slice(pages,pages+limit);
   for (let i=0;i <newpyData.length;i++){
   str+=`
         <tr>
@@ -62,6 +58,9 @@ function RenderTable(page,limit,data){
   }
   $('#TableData').html(str);
 }
+// 调用函数
+getTable(); 
+
 // 编辑信息
 layui.use('layer',function(){
   layer=layui.layer;
@@ -121,7 +120,7 @@ function edituser(id){
       }      
   })
 }
-  // 删除
+  // 删除信息
   layui.use('layer',function(){});
 function deluser(id){
   //  console.log('点击成功');
@@ -156,6 +155,6 @@ function deluser(id){
       });
   });
 }
-// 查询
+
 
 
