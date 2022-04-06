@@ -1,61 +1,74 @@
-html body{
+html body {
     height: 100%;
-    width: 100%; 
-    }
-*{
+    width: 100%;
+}
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    }
-.layui-header{
-    background-color:  black !important;
+}
+
+.layui-header {
+    background-color: black !important;
     text-align: center;
     color: white;
-    }
-.layui-side{
+}
+
+.layui-side {
     background-color: black;
     text-align: center;
     color: white;
-    }
-.layui-body{
-    background-color:  #f7f4f4f1 !important;
+}
+
+.layui-body {
+    background-color: #f7f4f4f1 !important;
     color: white;
 }
-.side_title{
+
+.side_title {
     font-size: 25px;
 }
-.side_content{
+
+.side_content {
     margin-top: 20px;
-    font-size: 18px;  
+    font-size: 18px;
 }
-.main{
+
+.main {
     display: flex;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    }
-.div_vedio{
-    width:65%;
+}
+
+.div_vedio {
+    width: 65%;
     height: 100%;
-    }
-.droppable{
+}
+
+.droppable {
     border: 1px solid rgb(10, 10, 10);
     width: 50%;
     height: 50%;
     float: left;
-    }
- .ps{
+}
+
+.ps {
     border: 1px solid rgb(8, 8, 8);
     width: 35%;
-    height:100%;
-  }
-.ps_picture{
+    height: 100%;
+}
+
+.ps_picture {
     height: 180px;
-  }
-.ps_text{
+}
+
+.ps_text {
     margin-top: 20px;
     color: black;
-  }
-.icon{
+}
+
+.icon {
     color: black;
 }
