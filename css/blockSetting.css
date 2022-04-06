@@ -1,46 +1,56 @@
-html body{
+html body {
     height: 100%;
-    width: 100%; 
-    }
-*{
+    width: 100%;
+}
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    }
-.layui-header{
-    background-color:  black !important;
-    text-align: center;
-    }
-.layui-side{
-    background-color: black;
-    text-align: center;
-    }
-.layui-body{
-    background-color:   white!important;
 }
-.layui-nav-title{
-    margin: 50px 0px;
-}
-.aa{
-    font-size: 18px;
-    color: white;
-}
-.add-select{
-    display: flex;
-}
-#page{
+
+.layui-header {
+    background-color: black !important;
     text-align: center;
 }
 
-.layui-form-item{
+.layui-side {
+    background-color: black;
+    text-align: center;
+}
+
+.layui-body {
+    background-color: white !important;
+}
+
+.layui-nav-title {
+    margin: 50px 0px;
+}
+
+.aa {
+    font-size: 18px;
+    color: white;
+}
+
+.add-select {
+    display: flex;
+}
+
+#page {
+    text-align: center;
+}
+
+.layui-form-item {
     display: flex;
     font-size: 18px;
     width: 100%;
     margin: 50px 0px;
 }
-.grading{
-    margin:5px 10px;
+
+.grading {
+    margin: 5px 10px;
 }
-.layui-btn{
+
+.layui-btn {
     border: 1px solid rgb(15, 15, 15)
 }

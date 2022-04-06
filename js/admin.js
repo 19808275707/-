@@ -123,16 +123,16 @@ function edituser(id){
 }
   // 删除
   layui.use('layer',function(){});
- function deluser(id){
+function deluser(id){
   //  console.log('点击成功');
-   layer=layui.layer;
-   layer.confirm('确定要删除用户信息吗？', {
+  layer=layui.layer;
+  layer.confirm('确定要删除用户信息吗？', {
      btn: ['确定','取消'] //按钮
-   },
+  },
     function(){
       // console.log('确认删除');
      // 在这里发起一个ajax请求
-     $.ajax({
+    $.ajax({
       url:host + `/user/${id}/`,
       method:'delete',
       xhrFields: {
@@ -147,15 +147,15 @@ function edituser(id){
           window.location.reload()
         },1500)
       }}
-     })
-   },
+    })
+  },
     function(){
       // console.log('取消');
       layer.msg('取消', {
          time: 1000, //1秒后自动关闭
       });
-   });
- }
+  });
+}
 // 查询
 
 

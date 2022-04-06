@@ -1,33 +1,39 @@
-html body{
+html body {
     height: 100%;
-    width: 100%; 
-    }
-*{
+    width: 100%;
+}
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    }
-.layui-header{
-    background-color:  black !important;
+}
+
+.layui-header {
+    background-color: black !important;
     text-align: center;
     color: white;
-    }
-.layui-side{
+}
+
+.layui-side {
     background-color: black;
     text-align: center;
-    }
-.layui-body{
-    background-color:   white!important;
 }
-.layui-nav-title{
+
+.layui-body {
+    background-color: white !important;
+}
+
+.layui-nav-title {
     margin: 50px 0px;
 }
-.aa{
+
+.aa {
     font-size: 18px;
     color: white;
 }
-.layui-upload-drag{
+
+.layui-upload-drag {
     border: 1px solid black;
     margin: 300px 500px;
 }
-

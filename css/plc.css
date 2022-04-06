@@ -1,44 +1,52 @@
-html body{
+html body {
     height: 100%;
-    width: 100%; 
-    }
-*{
+    width: 100%;
+}
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    }
-.layui-header{
-    background-color:  black !important;
+}
+
+.layui-header {
+    background-color: black !important;
     text-align: center;
     color: white;
-    }
-.layui-side{
+}
+
+.layui-side {
     background-color: black;
     text-align: center;
-    }
-.layui-body{
-    background-color:   white!important;
 }
-.layui-nav-title{
+
+.layui-body {
+    background-color: white !important;
+}
+
+.layui-nav-title {
     margin: 50px 0px;
 }
-.aa{
+
+.aa {
     font-size: 18px;
     color: white;
 }
-.layui-input-block{
+
+.layui-input-block {
     width: 25%;
     margin-left: 20px;
 }
-.input{
+
+.input {
     margin: 10px 10px;
 }
-.layui-tab{
+
+.layui-tab {
     box-shadow: 0px 0px 5px 0px rgb(10, 10, 10);
     margin: 10px 10px;
 }
-.layui-tab-title{
+
+.layui-tab-title {
     margin: 30px 10px;
 }
-
-

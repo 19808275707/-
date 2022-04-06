@@ -1,34 +1,39 @@
-html body{
+html body {
     height: 100%;
-    width: 100%; 
+    width: 100%;
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-.layui-header{
-    background-color:  black !important;
+
+.layui-header {
+    background-color: black !important;
     text-align: center;
     color: white;
 }
-.layui-side{
+
+.layui-side {
     background-color: black;
     text-align: center;
 }
-.layui-body{
-    background-color:  white!important;
+
+.layui-body {
+    background-color: white !important;
 }
-.layui-nav-title{
+
+.layui-nav-title {
     margin: 50px 0px;
     color: white;
 }
-.aa{
+
+.aa {
     font-size: 18px;
     color: white;
 }
 
-#fenye{
+#fenye {
     text-align: center;
 }
-

@@ -1,69 +1,105 @@
-html body{
+html body {
     height: 100%;
-    width: 100%; 
-    }
-*{
+    width: 100%;
+}
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    }
-.layui-header{
-    background-color:  black !important;
+}
+
+.layui-header {
+    background-color: black !important;
     text-align: center;
     color: white;
-    }
-.layui-side{
+}
+
+.layui-side {
     background-color: black;
     text-align: center;
-    }
-.layui-body{
-    background-color:   white!important;
 }
-.layui-nav-title{
+
+.layui-body {
+    background-color: white !important;
+}
+
+.layui-nav-title {
     margin: 50px 0px;
 }
-.aa{
+
+.aa {
     font-size: 18px;
     color: white;
 }
-.input-select{
+
+.input-select {
     width: 100%;
     display: flex;
     margin: 10px 0px;
 }
-.layui-inline{
+
+.layui-inline {
     display: flex;
 }
-.layui-form-label{
+
+.layui-form-label {
     width: 38%;
 }
-.select{
+
+.select {
     width: 100%;
     height: 40px;
 }
-.layui-btn{
+
+.layui-btn {
     border: 1px solid rgb(248, 244, 244);
 }
-.table-picture{
+
+.table-picture {
     margin: 10px 10px;
     display: flex;
 }
 
-#fenye{
+#fenye {
     text-align: left;
 }
-.picture{
+
+.picture {
     margin-top: 10px;
     margin-left: 100px;
     width: 40%;
 }
-#img{
-        line-height: 35px;
+
+#img {
+    line-height: 35px;
 }
-.layui-table tbody tr:hover, .layui-table thead tr, .layui-table-click, .layui-table-header, .layui-table-hover, .layui-table-mend, .layui-table-patch, .layui-table-tool, .layui-table[lay-even] tr:nth-child(even) {
+
+.layui-table tbody tr:hover,
+.layui-table thead tr,
+.layui-table-click,
+.layui-table-header,
+.layui-table-hover,
+.layui-table-mend,
+.layui-table-patch,
+.layui-table-tool,
+.layui-table[lay-even] tr:nth-child(even) {
     background-color: transparent;
     border-style: none !important;
 }
-.layui-table td, .layui-table th, .layui-table-col-set, .layui-table-fixed-r, .layui-table-grid-down, .layui-table-header, .layui-table-page, .layui-table-tips-main, .layui-table-tool, .layui-table-total, .layui-table-view, .layui-table[lay-skin=line], .layui-table[lay-skin=row]{
+
+.layui-table td,
+.layui-table th,
+.layui-table-col-set,
+.layui-table-fixed-r,
+.layui-table-grid-down,
+.layui-table-header,
+.layui-table-page,
+.layui-table-tips-main,
+.layui-table-tool,
+.layui-table-total,
+.layui-table-view,
+.layui-table[lay-skin=line],
+.layui-table[lay-skin=row] {
     border-style: none !important;
 }

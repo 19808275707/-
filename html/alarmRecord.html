@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +12,13 @@
     <link rel="stylesheet" href="../css/alarmRecord.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="layui-layout layui-layout-admin">
         <!-- 头部区域（可配合layui 已有的水平导航） -->
         <div class="layui-header">
             <h1>智慧大脑AI分析系统</h1>
-            <ul class="layui-nav layui-layout-right" >
+            <ul class="layui-nav layui-layout-right">
                 <li class="layui-nav-item" lay-header-event="menuRight" lay-unselect>
                     <a href="index.html" class="btn">
                         <i class="layui-icon layui-icon-home"></i>
@@ -48,7 +50,7 @@
             </ul>
         </div>
         <!-- 内容主体区域 -->
-        <div class="layui-body">  
+        <div class="layui-body">
             <div class="input-select">
                 <div class="layui-form-item">
                     <div class="layui-inline">
@@ -60,17 +62,17 @@
                 </div>
                 <div class="layui-form-item">
                     <div class="layui-inline">
-                            <label class="layui-form-label">报警结束时间</label>
+                        <label class="layui-form-label">报警结束时间</label>
                         <div class="layui-input-inline">
                             <input type="text" class="layui-input" id="endtime" placeholder="请选择结束时间进行查询">
                         </div>
                     </div>
-                </div>              
+                </div>
                 <div class="layui-form-item">
                     <div class="layui-inline">
                         <label class="layui-form-label">报警等级</label>
                         <div class="layui-input-inline">
-                            <select  name="alarm"  class="select" id="level">
+                            <select name="alarm" class="select" id="level">
                                 <option value="" selected>所有等级</option>
                                 <option value="0">无</option>
                                 <option value="1">一级</option>
@@ -80,11 +82,11 @@
                         </div>
                     </div>
                 </div>
-                <button type="button" class="layui-btn layui-btn-primary"  id="search" >查询</button>
+                <button type="button" class="layui-btn layui-btn-primary" id="search">查询</button>
             </div>
             <div class="table-picture">
                 <div class="layui-form">
-                    <table class="layui-table"lay-skin="row" lay-even="">
+                    <table class="layui-table" lay-skin="row" lay-even="">
                         <colgroup>
                             <col width="100">
                             <col width="150">
@@ -93,7 +95,7 @@
                             <col width="150">
                             <col>
                         </colgroup>
-                        <thead >
+                        <thead>
                             <tr>
                                 <th>序列号</th>
                                 <th>报警类型</th>
@@ -103,7 +105,7 @@
                                 <th>报警描述</th>
                             </tr>
                         </thead>
-                        <tbody id="pyData" ></tbody>
+                        <tbody id="pyData"></tbody>
                     </table>
                     <!-- 分页 -->
                     <div id="fenye"></div>
@@ -112,7 +114,7 @@
                     <div id="img"></div>
                 </div>
             </div>
-          
+
         </div>
     </div>
     <script src="../layui/layui.js"></script>
@@ -120,4 +122,5 @@
     <script src="../utils/jquery-1.11.3.js"></script>
     <script src="../js/alarmRecord.js"></script>
 </body>
+
 </html>

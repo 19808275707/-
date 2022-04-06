@@ -124,7 +124,7 @@
   // 开始日期选择
   layui.use('laydate', function(){
     var laydate = layui.laydate;
-     laydate.render({
+    laydate.render({
       elem: '#starttime'
       ,type: 'datetime',
       });

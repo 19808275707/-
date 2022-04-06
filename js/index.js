@@ -126,8 +126,6 @@ function exit(){
         this.className = 'droppable';
         this.append(draggable);
     }
-    
 
-   
 
 
