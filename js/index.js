@@ -45,7 +45,7 @@ function exit(){
         $('#img2').empty()
         $('#img3').empty()
         $('.alertmsg').remove()
-        $(`<img src=${imgroot.concat(data[0].picture.slice(mediaroot.length))} alt="" width="100%"/> class="alertimg" `).appendTo($('#img1'))
+        $(`<img src=${imgroot.concat(data[0].picture.slice(mediaroot.length))} alt="" width="100%" height="100%"/> class="alertimg" `).appendTo($('#img1'))
         $(`<div  class="alertmsg">
             <p>报警名称：${data[0].name}</p>
             <p>报警描述：${data[0].description}</p>
@@ -53,7 +53,7 @@ function exit(){
             <p>报警位置：${data[0].location}</p>
             <p>报警时间：${data[0].time}</p>
         </div>`).appendTo($('#msg1'))
-        $(`<img src=${imgroot.concat(data[1].picture.slice(mediaroot.length))} alt="" width="100%"/> class="alertimg"`).appendTo($('#img2'))
+        $(`<img src=${imgroot.concat(data[1].picture.slice(mediaroot.length))} alt="" width="100%" height="100%"/> class="alertimg"`).appendTo($('#img2'))
         $(`<div  class="alertmsg">
             <p>报警名称：${data[1].name}</p>
             <p>报警描述：${data[1].description}</p>
@@ -61,7 +61,7 @@ function exit(){
             <p>报警位置：${data[1].location}</p>
             <p>报警时间：${data[1].time}</p>
         </div>`).appendTo($('#msg2'))
-        $(`<img src=${imgroot.concat(data[2].picture.slice(mediaroot.length))} alt="" width="100%"/> class="alertimg"`).appendTo($('#img3'))
+        $(`<img src=${imgroot.concat(data[2].picture.slice(mediaroot.length))} alt="" width="100%" height="100%"/> class="alertimg"`).appendTo($('#img3'))
         $(`<div  class="alertmsg">
             <p>报警名称：${data[2].name}</p>
             <p>报警描述：${data[2].description}</p>

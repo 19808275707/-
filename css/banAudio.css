@@ -1,46 +1,30 @@
 html body{
-    margin: 0px;
-    padding: 0px;
     height: 100%;
-    width: 100%;
-}
+    width: 100%; 
+    }
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-.layui-layout{
-    cursor: pointer;
-    width: 100%;
-    height: 100%;
-}
+    }
 .layui-header{
-    background-color:  #080808 !important;
-}
-h1{
+    background-color:  black !important;
+    text-align: center;
     color: white;
-    margin-left: 700px;
-    text-shadow: 10px 10px 10px white;
-}
-.layui-nav{
-    height: 100%;
-    background-color: #1a1919 !important;
-}
-
-.aa{
-    color: white;
-    font-size: 18px !important;
-    line-height: 80px;
-}
+    }
+.layui-side{
+    background-color: black;
+    text-align: center;
+    }
 .layui-body{
-    background-color:  #464747 !important;
-    height: 100%;
+    background-color:   white!important;
 }
-
-h1{
+.layui-nav-title{
+    margin: 50px 0px;
+}
+.aa{
+    font-size: 18px;
     color: white;
-    margin-left: 700px;
-    text-shadow: 10px 10px 10px white;
 }
 .layui-upload-drag{
     border: 1px solid black;
