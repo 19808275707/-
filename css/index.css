@@ -1,12 +1,12 @@
 html body {
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
 .layui-header {
@@ -22,8 +22,7 @@ html body {
 }
 
 .layui-body {
-    background-color: #f7f4f4f1 !important;
-    color: white;
+    background-color: whitesmoke !important;
 }
 
 .side_title {
@@ -36,26 +35,26 @@ html body {
 }
 
 .main {
-    display: flex;
     width: 100%;
     height: 100%;
-    box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
 }
 
 .div_vedio {
     width: 65%;
-    height: 100%;
+    box-sizing: border-box;
 }
 
 .droppable {
-    border: 1px solid rgb(10, 10, 10);
-    width: 50%;
-    height: 50%;
+    border: 1px solid rgb(13, 14, 13);
+    width: 49.5%;
+    height: 49%;
     float: left;
 }
 
 .ps {
-    border: 1px solid rgb(8, 8, 8);
+    border: 1px solid black;
     width: 35%;
     height: 100%;
 }
@@ -65,6 +64,7 @@ html body {
 }
 
 .ps_text {
+  
     margin-top: 20px;
     color: black;
 }
